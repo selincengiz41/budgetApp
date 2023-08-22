@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BudgetApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="android:colorAccent">@color/primaryConteiner</item>
+        <item name="colorPrimaryContainer">@color/primaryConteiner</item>
+        <item name="colorOnSecondaryContainer">@color/container</item>
+        <item name="colorOnPrimaryContainer">@color/black</item>
+        <!-- Butonların metin rengi -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- Pasif buton rengi -->
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <!-- Navigation bar rengi -->
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Bottom nav rengi -->
+        <item name="bottomNavigationStyle">
+            @style/Widget.MaterialComponents.BottomNavigationView.Colored
+        </item>
+        <item name="colorOnPrimary">@color/primaryConteiner</item>
+
+        <item name="android:textColorPrimaryInverse">@color/primaryConteiner</item>
+
+    </style>
+</resources>
